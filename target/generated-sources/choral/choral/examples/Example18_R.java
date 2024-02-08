@@ -16,7 +16,7 @@ public class Example18_R {
 	
 	public void run() {
 		{
-			new Lambda_B( Unit.id ).apply( new Com_B( ch ) );
+			new Lambda_B( Unit.id ).apply( ch );
 		}
 	}
 

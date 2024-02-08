@@ -12,11 +12,11 @@ public class Example18@(S, R) {
     public void run(boolean@S cond) {
         if (cond) {
             int@S x = 123@S;
-            new Lambda@(S, R)(x).apply(new Com@(S, R)(ch));
+            new Lambda@(S, R)(x).apply(ch);
         }
         else {
             int@S x = 456@S;
-            new Lambda@(S, R)(x).apply(new Com@(S, R)(ch));
+            new Lambda@(S, R)(x).apply(ch);
         }
     }
 }

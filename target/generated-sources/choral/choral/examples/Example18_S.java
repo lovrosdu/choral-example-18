@@ -12,10 +12,10 @@ public class Example18_S {
 	public void run( boolean cond ) {
 		if( cond ){
 			int x = 123;
-			new Lambda_A( x ).apply( new Com_A( ch ) );
+			new Lambda_A( x ).apply( ch );
 		} else { 
 			int x = 456;
-			new Lambda_A( x ).apply( new Com_A( ch ) );
+			new Lambda_A( x ).apply( ch );
 		}
 	}
 

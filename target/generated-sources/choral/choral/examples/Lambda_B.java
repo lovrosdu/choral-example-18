@@ -1,6 +1,7 @@
 package choral.examples;
 
 import choral.lang.Unit;
+import choral.channels.SymChannel_B;
 
 public class Lambda_B {
 	public Lambda_B( Unit integer ) {
@@ -11,8 +12,8 @@ public class Lambda_B {
 		
 	}
 
-	public Integer apply( Com_B com ) {
-		return com.apply( Unit.id );
+	public Integer apply( SymChannel_B < Integer > ch ) {
+		return ch.< Integer >com( Unit.id );
 	}
 
 }
